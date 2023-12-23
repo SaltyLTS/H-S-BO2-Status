@@ -129,7 +129,7 @@ client.on('ready', () => {
                 let statusEmbed = new Discord.EmbedBuilder()
                     .setTitle("Honte-Servers BO2 Status List")
                     .setURL("https://honte-servers.com/")
-                    .setDescription(`**Servers are restarting everyday at 00am (UTC+2)**\n\nServers Online: \`${OnlineServers}\`\nPlayers Online: \`${TotalPlayers}/${MaxPlayers}\`\nPlayers Record: \`${BestPlayers}/${MaxPlayers}\`\nAt \`${BestPlayersTimestamp}\`\n\n**============================================**\n\`\`\`Click a server link to see its status\`\`\``)
+                    .setDescription(`**Servers are restarting everyday at 00am (UTC+1)**\n\nServers Online: \`${OnlineServers}\`\nPlayers Online: \`${TotalPlayers}/${MaxPlayers}\`\nPlayers Record: \`${BestPlayers}/${MaxPlayers}\`\nAt \`${BestPlayersTimestamp}\`\n\n**============================================**\n\`\`\`Click a server link to see its status\`\`\``)
                     .addFields(
                         {
                             name: "🟢 : ON",
